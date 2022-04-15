@@ -1,3 +1,12 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/timeline-planning-checklist-or-business-plan-with-calendar-date-on-picture-id1211255735?k=20&m=1211255735&s=612x612&w=0&h=eT_yt1ZzUGw053m8ycranQWs8-kL0VDv67DrqfxNGxw=");
+    background-size: cover;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+}
+
 .main{
     width: 200px;
     height: 300px;
@@ -5,7 +14,7 @@
     margin-top: 20px;
     padding: 10px;
     border: 1px solid black;
-    background-image: url("https://i.pinimg.com/originals/fb/97/2f/fb972fdb2c21e4db6f3650533ebb62f7.jpg");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7oVe-ORe-vprJ8V5_jW5rc22tYfEH6OKihrCO9SzAo0By6s7ncVJuSE0j5wz4Dq6N1BY&usqp=CAU");
     background-size: cover;
     overflow: scroll;
     /* scrollbar-width: none;
