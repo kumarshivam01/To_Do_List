@@ -1,0 +1,64 @@
+.main{
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    background-image: url("https://i.pinimg.com/originals/fb/97/2f/fb972fdb2c21e4db6f3650533ebb62f7.jpg");
+    background-size: cover;
+    overflow: scroll;
+    /* scrollbar-width: none;
+    overflow-y: hidden;
+    scroll-bar:hide;
+    scroll-behavior: ; */
+}
+.main:hover{
+    background-image: url("https://images.wallpaperscraft.com/image/single/dubai_united_arab_emirates_sea_83651_1080x1920.jpg");
+    background-size: cover;
+}
+
+.nav-bar{
+    display: flex;
+    height: 25px;
+    border: 1px solid black;
+    background-color: rgb(130,147,118);
+    border-radius: 5px;
+}
+button{
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+input{
+    border: none;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+.todo_list{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 10px;
+   
+    
+}
+li{
+    /* border: 1px solid red; */
+    color: white;
+    list-style: none;
+    text-transform: capitalize;
+    
+
+}
+.todo_list>input{
+    margin-left: -35px;
+}
+i{
+    color: white;
+    font-size: 17px;
+    margin-left: 80px;
+
+}
